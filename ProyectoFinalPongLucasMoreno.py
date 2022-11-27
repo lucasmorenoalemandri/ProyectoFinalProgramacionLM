@@ -98,13 +98,6 @@ def reset_screen():
     paddle_a.goto(-350, 0)
     paddle_b.goto(350, 0)     
     
-wn.listen()
-wn.onkeypress(paddle_a_up, "w")
-wn.onkeypress(paddle_a_down, "s")
-wn.onkeypress(paddle_b_up, "Up")
-wn.onkeypress(paddle_b_down, "Down")
-wn.onkeypress(init_game, "Return")
-
 while True:
     try:
         wn.update()
