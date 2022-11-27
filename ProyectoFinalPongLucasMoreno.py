@@ -38,8 +38,8 @@ ball.shape("circle")
 ball.color("white")
 ball.penup()
 ball.goto(0, 0)
-ball.dx = 0.15#0.2#2
-ball.dy = 0.15#0.2#2
+ball.dx = 0.6
+ball.dy = 0.6
 static = True
 
 pen = turtle.Turtle()
